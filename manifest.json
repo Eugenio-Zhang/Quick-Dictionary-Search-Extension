@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "快捷词典查询",
+  "version": "1.0",
+  "description": "选中文字后右键点击，即可在指定的词典网站中查询。",
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
